@@ -15,6 +15,7 @@ map('n', '<C-e>', '$', opt)
 map('i', '<C-a>', '<ESC>I', opt)
 map('i', '<C-e>', '<ESC>A', opt)
 map('i', '<M-w>', '<ESC>ciw', opt)
+map('i', '<M-z>', '<ESC>ui', opt)
 map('n', '<M-w>', 'ciw', opt)
 
 map('n', '<C-w>', ':Bdelete!<CR>', opt) -- 关闭标签页

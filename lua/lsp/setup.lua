@@ -36,7 +36,7 @@ mason_config.setup({
         'clangd',
         'pyright',
         'marksman',
-        -- 'remark_ls',
+        'remark_ls',
 
         'cssls',
         'html',
@@ -64,7 +64,7 @@ local servers = {
     clangd = require('lsp.config.clangd'),
     pyright = require('lsp.config.pyright'),
     marksman = require('lsp.config.general'),
-    -- remark_ls = require('lsp.config.general'),
+    remark_ls = require('lsp.config.general'),
 
     cssls = require('lsp.config.general'),
     html = require('lsp.config.general'),
