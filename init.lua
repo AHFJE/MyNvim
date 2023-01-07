@@ -27,7 +27,8 @@ require('lsp.setup')
 require('lsp.cmp')
 require('lsp.ui')
 
-require('lsp.formatter')
+-- require('lsp.formatter')
+require('lsp.null-ls')
 
 -- 设置自动保存
 vim.api.nvim_create_autocmd({ 'InsertLeave', 'BufLeave', 'FocusLost' }, {

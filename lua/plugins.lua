@@ -50,7 +50,8 @@ packer.startup({
         use('tami5/lspsaga.nvim')
 
         -- 代码格式化
-        use('mhartington/formatter.nvim')
+        -- use('mhartington/formatter.nvim')
+        use({ 'jose-elias-alvarez/null-ls.nvim', requires = 'nvim-lua/plenary.nvim' })
 
         -- terminal
         use('akinsho/toggleterm.nvim')

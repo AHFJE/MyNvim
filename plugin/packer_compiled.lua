@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/Users/hemiaoyang/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "git@github.com:j-hui/fidget.nvim"
   },
-  ["formatter.nvim"] = {
-    loaded = true,
-    path = "/Users/hemiaoyang/.local/share/nvim/site/pack/packer/start/formatter.nvim",
-    url = "git@github.com:mhartington/formatter.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/hemiaoyang/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -178,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/hemiaoyang/.local/share/nvim/site/pack/packer/start/nord-vim",
     url = "git@github.com:arcticicestudio/nord-vim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/hemiaoyang/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "git@github.com:jose-elias-alvarez/null-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
