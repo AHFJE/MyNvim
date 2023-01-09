@@ -32,6 +32,7 @@ map('v', "'", "di''<ESC>hp", opt)
 map('v', '"', 'di""<ESC>hp', opt)
 map('v', '[', 'di[]<ESC>hp', opt)
 map('v', '{', 'di{}<ESC>hp', opt)
+map('v', '`', 'di``<ESC>hp', opt)
 
 -- windows 分屏快捷键
 map('n', 'sv', ':vsp<CR>', opt)
